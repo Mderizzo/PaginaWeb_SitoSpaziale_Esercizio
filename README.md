@@ -8,9 +8,9 @@
 
 ---
 
-![Screenshot dell app](/.img-1.png)
-![Screenshot dell app](https://github.com/Mderizzo/Bootstrap_exercise/blob/main/img/img-2.png?raw=true)
-![Screenshot dell app](img/img-3.png)
+![Screenshot dell app](https://github.com/Mderizzo/PaginaWeb_SitoSpaziale_Esercizio/blob/main/Screenshoot/img-1.png)
+![Screenshot dell app](https://github.com/Mderizzo/PaginaWeb_SitoSpaziale_Esercizio/blob/main/Screenshoot/img-2.png)
+![Screenshot dell app]([img/img-3.png](https://github.com/Mderizzo/PaginaWeb_SitoSpaziale_Esercizio/blob/main/Screenshoot/img-3.png))
 
 
 
