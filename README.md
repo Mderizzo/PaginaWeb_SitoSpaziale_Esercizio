@@ -1,7 +1,17 @@
 
-# Landing Page Animata
-## Questo progetto è una landing interattiva, costruita con HTML, CSS, Bootstrap 5 e Animate.css.
+# Landing Page 
+## Landing interattiva, costruita con HTML, CSS, Bootstrap 5 e Animate.css.
 [![GitHub repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/tuo-username/tuo-repo)
+
+Una pagina moderna e coinvolgente che unisce design responsive, animazioni fluide e struttura completa. Include:
+
+- Navbar fissa con effetto vetro e transizioni
+- Header con immagine parallax e testo animato
+- Sezione informativa con tre card dedicate ai pianeti
+- Form centrale per iscrizione con campi email e password
+- Footer ricco di link, categorie e icone social
+
+Il file CSS personalizzato gestisce font, colori, layout e animazioni, garantendo compatibilità su tutti i dispositivi.
 
 *Novembre 2025*
 🧑‍💻
@@ -19,18 +29,10 @@
 |------|----------------|----------|
 | HTML | Markup         | 5        |
 | CSS  | Style Sheet    | 3        |
-| JS   | Scripting      | ES6+     |
+
 
 👨‍💻
 ```bash
 Avviare Golive da VS-Code
 
-Una pagina moderna e coinvolgente che unisce design responsive, animazioni fluide e struttura completa. Include:
 
-- Navbar fissa con effetto vetro e transizioni
-- Header con immagine parallax e testo animato
-- Sezione informativa con tre card dedicate ai pianeti
-- Form centrale per iscrizione con campi email e password
-- Footer ricco di link, categorie e icone social
-
-Il file CSS personalizzato gestisce font, colori, layout e animazioni, garantendo compatibilità su tutti i dispositivi.
