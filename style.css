@@ -1,0 +1,355 @@
+* {
+  font-family: "Rethink Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* -------------------hero--------------------- */
+.parallax {
+  background-color: black;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1595088402198-24d44e48d57c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1958");
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+
+.content h1 {
+  font-size: 20vh;
+
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content p {
+  font-size: 1.6rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-pers {
+  background-color: #0dcaf0;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* -------------------fine hero--------------------- */
+
+/* ---------navbar---------- */
+
+.fissaNav {
+  position: fixed;
+  width: 100vw;
+  z-index: 3;
+}
+
+.navbar-glass {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Custom styles untuk navbar ke-4 */
+.navbar-modern {
+  background: #1a1a1a;
+  border-bottom: 3px solid #007bff;
+}
+
+.navbar-modern .navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar-modern .nav-link {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-modern .nav-link:hover {
+  color: #007bff !important;
+}
+
+.navbar-modern .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: #007bff;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar-modern .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/*----------------fine nav bar brand---------------- */
+
+/* ------------------- 3img ---------------------- */
+
+.container-pers {
+  margin-top: 10vh;
+  margin-bottom: 0vh;
+  align-items: center;
+  text-align: center;
+}
+
+.img1 {
+  max-height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-lg-4 h3 {
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  font-weight: 700;
+  font-size: 4vh;
+}
+
+.col-lg-4 p {
+  max-width: 240px; /* grandezza testi */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* centrare il testo */
+  margin-bottom: 2vh;
+}
+
+.row-pers {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y)); /* che cos'è? */
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80%;
+}
+
+.custom-btn {
+  background-color: #0dcaf0;
+  border: 2px solid #0e93ae;
+}
+
+/* ------------------- 3img fine ---------------------- */
+
+/* -----------------form--------------- */
+
+.container-pers2 {
+  background-color: #1a1a1a;
+  max-width: 100%;
+  margin-top: 12vh;
+
+  padding-top: 7vh;
+  padding-bottom: 5vh;
+}
+
+.card-title-white {
+  color: white;
+  font-weight: 700;
+}
+
+.text-white {
+  color: white;
+}
+
+.col-lg-3-spazio {
+  min-width: 20px;
+}
+
+.btn-color {
+  background-color: #26272b;
+  color: white;
+}
+
+.btn-color:hover {
+  background-color: #0dcaf0;
+  color: white;
+  border: 2px solid #0e93ae;
+}
+
+/* -----------------form fine--------------- */
+
+/* ------------------------footer------------------------ */
+footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+
+footer hr {
+  opacity: 0.5;
+}
+
+footer hr.small {
+  margin: 20px 0;
+}
+
+footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+footer a {
+  color: #737373;
+}
+
+footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.footer-links a {
+  color: #737373;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+footer .social-icons {
+  text-align: right;
+}
+
+footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    padding-bottom: 0;
+  }
+
+  footer .copyright-text,
+  footer .social-icons {
+    text-align: center;
+  }
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
