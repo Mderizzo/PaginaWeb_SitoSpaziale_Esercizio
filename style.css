@@ -4,7 +4,11 @@
   padding: 0px;
 }
 
-/* -------------------hero--------------------- */
+body {
+  overflow-x: hidden;
+}
+
+
 .parallax {
   background-color: black;
   height: 100vh;
@@ -43,14 +47,13 @@
   margin-top: 20px;
 }
 
-/* -------------------fine hero--------------------- */
-
-/* ---------navbar---------- */
 
 .fissaNav {
-  position: fixed;
-  width: 100vw;
-  z-index: 3;
+position: fixed;
+width: 100%;
+left: 0;
+right: 0;
+z-index: 3;
 }
 
 .navbar-glass {
@@ -59,7 +62,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* Custom styles untuk navbar ke-4 */
+
 .navbar-modern {
   background: #1a1a1a;
   border-bottom: 3px solid #007bff;
@@ -149,9 +152,6 @@
   border: 2px solid #0e93ae;
 }
 
-/* ------------------- 3img fine ---------------------- */
-
-/* -----------------form--------------- */
 
 .container-pers2 {
   background-color: #1a1a1a;
@@ -186,9 +186,6 @@
   border: 2px solid #0e93ae;
 }
 
-/* -----------------form fine--------------- */
-
-/* ------------------------footer------------------------ */
 footer {
   background-color: #26272b;
   padding: 45px 0 20px;
